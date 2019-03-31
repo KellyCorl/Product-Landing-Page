@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    background: rgb(228, 230, 225)
+}
+
+#header{
+    display: flex;
+    margin-left: 50px;
+    top: 0px;
+    position: fixed;
+    height: 70px;
+}
+
+#header-title {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+}
+
+ul {
+    display: flex;
+    margin-left: 550px;
+}  
+
+#nav-bar{
+    display: flex-end;
+}
+
+li{
+    padding-top: 40px;
+    margin:0px 40px;
+    list-style-type: none; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*----------------------------------*/
+
+#search {
+    text-align: center;
+    margin: 100px;
+}
+
+#email{
+    background: white;
+    margin: 15px;
+    width: 250px;
+    padding: 5px 0px;
+}
+
+#submit{
+    background: rgba(224, 204, 22, 0.966);
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+#features{
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.item_1{
+    display: flex;
+    padding: 30px 0px;
+}
+
+.material-icons{
+    color: rgba(224, 204, 22, 0.966);
+    margin-top: 10px;
+}
+
+.text{
+    margin-left: 80px;
+}
+
+#how_it_works {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#how_it_works iframe {
+    max-width: 560px;
+    width: 100%;
+}
+
+#pricing {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 150px;
+    background: rgb(230, 230, 230);
+}
+
+
+
+#pricing #tenor, #pricing #bass, #pricing #valve {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid rgb(179, 173, 173);
+    border-radius: 2px;
+    box-shadow: rgb(107, 106, 106);
+}
+
+#pricing #tenor .level, #pricing #bass .level, #pricing #valve .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#pricing #tenor h2, #pricing #bass h2, #pricing #valve h2 {
+    margin-top: 15px;
+}
+
+button {
+    border: 0;
+    margin: 15px 0;
+    background: rgba(224, 204, 22, 0.966);
+    font-weight: 400;
+}
+
+.btn {
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+}
+
+@media screen and (max-width: 500px) {
+   #header{
+       flex-direction: column;
+       display: none;
+   }
+}
